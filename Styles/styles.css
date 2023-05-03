@@ -1,0 +1,155 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul{
+    font-size: 10px;
+    display: flex;
+    gap: 10px;
+}
+button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 15px;
+    margin:10px 0;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding:0 50px 100px 100px;
+}
+.navbar{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 75px;
+}
+.logo{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 50%;
+    margin: auto;
+}
+.placeholder{
+    background-color: grey;
+    color: White;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50%;
+
+}
+.information {
+    background-color: white;
+    padding: 0 50px 100px 100px;
+}
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px 0;
+}
+.information-items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+.square{
+    Width:150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+.cards{
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    gap: 15px;
+}
+.testimonial {
+    background-color: #E5E7Eb;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:100;
+    color: #1F2937;
+    width: 50%;
+    margin: auto;
+}
+.user {
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.sign-up{
+    background-color: white;
+    padding: 100px 50px;  
+}
+
+.action{
+    background-color: #3882F6;
+    color:white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.action button {
+    border: 3px solid white;
+}
+
+.action h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action p {
+    font-size: 15px;
+}
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 12px;
+    text-align: center;
+    padding: 25px 0;
+}
